@@ -131,7 +131,7 @@ os.makedirs(directory_path, exist_ok=False)
 
 # Check if gzip exists
 if not os.path.exists(gzip_path):
-    print("GZIP file doesn't exist in the specified location! Please correct this issue.")
+    print("GZIP file doesn't exist in the specified location! Please keep the file in the correct directory.")
     exit(1)
 
 # Create global dictionaries

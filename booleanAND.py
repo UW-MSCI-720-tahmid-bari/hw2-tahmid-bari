@@ -31,12 +31,12 @@ index, queries, output = parse_args()
 
 # Check if index exists
 if not os.path.exists(index):
-    print("Index file doesn't exist in the specified location! Please correct this issue.")
+    print("Index file doesn't exist in the specified location! Please keep the file in the correct directory.")
     exit(1)
 
 # Check if queries file exists
 if not os.path.exists(queries):
-    print("Queries file doesn't exist in the specified location! Please correct this issue.")
+    print("Queries file doesn't exist in the specified location! Please keep the file in the correct directory.")
     exit(1)
 
 # Load the queries from the query file
